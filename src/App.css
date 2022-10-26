@@ -1,0 +1,329 @@
+.App {
+  text-align: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.account{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #2A3477;
+}
+
+.account:hover {
+  background-color: #2A3477;
+  color: white;
+}
+.analyse{
+   
+    background-color: white; 
+    color: black; 
+    border: 2px solid #2A3477;
+  }
+  
+  .analyse:hover {
+    background-color: #2A3477;
+    color: white;
+  }
+
+  .payment{
+
+    background-color: white; 
+    color: black; 
+    border: 2px solid #2A3477;
+  }
+  
+  .payment:hover {
+    background-color: #2A3477;
+    color: white;
+  }
+  .cards{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #2A3477;
+  }
+  
+  .cards:hover {
+    background-color: #2A3477;
+    color: white;
+  }
+  .setting{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #2A3477;
+  }
+  
+  .setting:hover {
+    background-color: #2A3477;
+    color: white;
+  }
+.logo{
+  width:80px;
+  height:30px;
+  background-color:none;
+}
+.collapse{
+list-style: none;
+}
+.profile{
+width:40px;
+}
+.sidenav{
+  top: -2.4697265625px;
+  left: -1px;
+  width: 273px;
+  height: 900px;
+  display: flex;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+}
+
+.p{
+  top: 295px;
+left: 388px;
+width: 145px;
+height: 17px;
+text-align: left;
+font: normal normal normal 14px/17px Roboto;
+letter-spacing: 0px;
+color: #246BAD;
+opacity: 1;
+}
+.start{
+  top: 120px;
+left: 319px;
+width: 200px;
+height: 24px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 20px/24px Roboto;
+letter-spacing: 0px;
+color: #666666;
+opacity: 1;
+}
+.next{
+  top: 0px;
+left: 0px;
+width: 150px;
+height: 17px;
+text-align: left;
+font: normal normal normal 14px/10px Roboto;
+letter-spacing: 0px;
+color: #717171A6;
+}
+.other{
+  top: 0px;
+left: 72px;
+width: 74px;
+height: 17px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 14px/10px Roboto;
+letter-spacing: 0px;
+color: #717171A6;
+}
+.btn btn-primary{
+  top: 337px;
+left: 325px;
+width: 445px;
+height: 66px;
+/* UI Properties */
+background:#282c34 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.rightside{
+  top: 337px;
+left: 655px;
+width: 656px;
+height: 810px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 8px #00000029;
+border-radius: 4px;
+opacity: 1;
+}
+.main{
+  top: 198px;
+  left: 292px;
+  width: 518px;
+  height: 860px;
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 8px #00000029;
+  border-radius: 4px;
+  opacity: 1;
+
+}
+ .card-right {
+  color:chartreuse;
+height : 100px;
+width : 500 px
+
+   /* width:300px; 
+   background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; 
+     width: 519px;
+    height: 2000px; */
+}
+.card-body{
+  width:500px;
+} 
+.rightside{
+  top: 198px;
+left: 825px;
+width: 1056px;
+height: 900px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 8px #00000029;
+border-radius: 4px;
+opacity: 1;
+}
+.beneficiary{
+  top: 386px;
+left: 903px;
+width: 68px;
+height: 17px;
+/* UI Properties */
+text-align: center;
+font: normal normal normal 14px/17px Roboto;
+letter-spacing: 0px;
+color: #343F43;
+opacity: 0.8;
+}
+.john{
+  top: 413px;
+left: 903px;
+width: 76px;
+height: 22px;
+/* UI Properties */
+text-align: center;
+font: normal normal normal 18px/22px Roboto;
+letter-spacing: 0px;
+color: #246BAD;
+opacity: 1;
+}
+.num{
+  top: 477px;
+left: 903px;
+width: 274px;
+height: 22px;
+text-align: center;
+font: normal normal normal 18px/22px Roboto;
+letter-spacing: 0px;
+color: #246BAD;
+opacity: 1;
+}
+.pay{
+  top: 541px;
+left: 903px;
+width: 118px;
+height: 22px;
+text-align: center;
+font: normal normal normal 18px/22px Roboto;
+letter-spacing: 0px;
+color: #246BAD;
+opacity: 1;
+
+}
+.coins{
+display:flex;
+}
+.h6-coins{
+display: flex;
+}
+.timer{
+  display: flex;
+}
+.flag{
+display: flex;
+}
+.btn btn-light
+{
+  top: 300px;
+left: 830px;
+width: 100%;
+height: 36px;
+opacity: 1;
+}
+.close{
+color: #F37221;
+display: flex;
+}
+.modalcheck{
+  padding: 1em;
+  max-width: 50ch;
+  top: 325px;
+left: 85px;
+width: 450px;
+height: 250px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 6px;
+opacity: 1;
+}
+.money{
+  border-radius: 45%;
+}
+.skip{
+  border-radius: 45%;
+}
+.card{
+  /* line-height: 550pt; */
+ 
+  width: 420px!important;
+  height: 825px !important;
+  /* top: 2px;
+left: 1px;
+width: 850px;
+line-height: 500pt;
+/* height:2555px; */
+/* background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 8px #00000029;
+border-radius: 4px;
+opacity: 1; */
+} */
+
+
+.card-body{
+  top: 226px;
+  left: 325px;
+  width: 340px;
+  height: 77px;
+  text-align: center;
+  font: normal normal medium 22px/27px Roboto;
+  letter-spacing: 0px;
+  color: #3A3F43;
+  opacity: 0.8;
+}
+/* .card-body1{
+  line-height: 30pt;
+  top:-1;
+} */
